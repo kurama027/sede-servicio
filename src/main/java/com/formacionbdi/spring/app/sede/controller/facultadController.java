@@ -18,7 +18,7 @@ import com.formacionbdi.spring.app.sede.entity.facultad;
 import com.formacionbdi.spring.app.sede.service.facultadService;
 
 
-@CrossOrigin(origins = { "http://localhost:4200" })
+@CrossOrigin(origins = { "https://quintahelena.azurewebsites.net" })
 @RestController
 public class facultadController {
 	@Autowired
